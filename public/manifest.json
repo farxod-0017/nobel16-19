@@ -1,15 +1,19 @@
 {
-  "short_name": "Human Resours",
-  "name": "Presentation created for HR management in Nobel price",
-  "description":"Nobel(economics) 2016-2019.pptx via html tecnology with React",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
-      "src": "red_human.png",
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "red_human.png"  ,
+      "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
