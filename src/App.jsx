@@ -21,13 +21,13 @@ function App() {
     <div className="App">
       <header>
         <button style={{background:page === 'Home' ? 'rgb(11, 255, 11)': ''}} onClick={() => setPage('Home')}>Bosh sahifa</button>
-        <button style={{background:page === 'Facts' ? 'rgb(11, 255, 11)': ''}} onClick={() => setPage('Facts')}>Faktlar</button>
-        <button style={{background:page === 'Research' ? 'rgb(11, 255, 11)': ''}} onClick={() => setPage('Research')}>Tadqiqotlar</button>
-        <button style={{background:page === 'Applications' ? 'rgb(11, 255, 11)': ''}} onClick={() => setPage('Applications')}>Loyihalar</button>
+        <button style={{background:page === 'Facts' ? 'rgb(11, 255, 11)': ''}} onClick={() => setPage('Facts')}>Asosiy fondlar</button>
+        <button style={{background:page === 'Research' ? 'rgb(11, 255, 11)': ''}} onClick={() => setPage('Research')}>Ishlab chiqarish quvvatlari</button>
+        <button style={{background:page === 'Applications' ? 'rgb(11, 255, 11)': ''}} onClick={() => setPage('Applications')}>Xulosa</button>
       </header>
       <main style={{margin:'36px 0'}}>{renderPage()}</main>
       <footer>
-        <p>&copy; 2024 Nobel Mukofotlari - Egamnazarov Farhod</p>
+        <p>&copy; 2025 Sanoat Iqtisodiyoti - Egamnazarov Farhod</p>
       </footer>
     </div>
   );

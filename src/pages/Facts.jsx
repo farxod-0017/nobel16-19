@@ -3,44 +3,46 @@ import React from "react";
 const Facts = () => {
   return (
     <div className="page page_fact">
-      <h2 >Oliver Hart</h2>
+      <h2 >Asosiy fondlarning ta’rifi va turlari</h2>
       <div className="home1">
         <img
-          src="https://th.bing.com/th/id/R.34cc2f8a10bfc3790b755865bf780c85?rik=QdEgwI%2b6uqyNFw&pid=ImgRaw&r=0"
+          src="https://th.bing.com/th/id/R.e0e9327d65b14b53dee634892eae5ce5?rik=h5G17KADaom%2fVA&pid=ImgRaw&r=0&sres=1&sresct=1"
           alt="Qiziqarli faktlar"
           className="hero-image"
         />
         <ul>
-          <li>Oliver Hart 1948-yilda Londonda tug‘ilgan.</li>
-          <h4>Ta'lim:</h4>
-          <li>Kembrij universiteti (bakalavr) <br />
-            Warwick universiteti (magistratura) <br />
-            Prinston universiteti (PhD, 1974-yil)</li>
-          <h4>Ish joylari:</h4>
+          <li>Asosiy fondlar – bu uzoq muddat xizmat qiluvchi moddiy va nomoddiy aktivlar bo‘lib, ular ishlab chiqarish jarayonida faol ishtirok etadi va asta-sekin eskiradi.</li>
+          <h4>Moddiy asosiy fondlar:</h4>
+          <li>Binolar va inshootlar – zavodlar, omborxonalar, ishlab chiqarish sexlari. <br />
+            Mashina va uskunalar – ishlab chiqarish jarayonida ishlatiladigan texnika. <br />
+            Transport vositalari – xomashyo va tayyor mahsulotlarni tashish uchun transport. <br />
+            Energetik tizimlar – ishlab chiqarish jarayoni uchun zarur bo‘lgan energiya manbalari.
+          </li>
+          <h4>Nomoddiy asosiy fondlar:</h4>
           <li>
-            London iqtisodiyot maktabi (LSE) <br />
-            Massachusetts texnologiya instituti (MIT) <br />
-            Harvard universiteti (professor)
+            Texnologiyalar – dasturiy ta’minot, ishlab chiqarish metodlari. <br />
+            Patent va litsenziyalar – ishlab chiqarish sohasidagi intellektual mulk.
           </li>
         </ul>
       </div>
-      <h2>Bengt Holmström</h2>
+      <h2>Asosiy fondlarning eskirish jarayoni hamda  samaradorligini oshirish usullari</h2>
       <div className="home1">
         <img
-          src="https://th.bing.com/th/id/OIP.HZ3-bKZ-Hen-lTOLaIS8PQHaEK?rs=1&pid=ImgDetMain"
+          src="https://th.bing.com/th/id/OIP.7kFJH3VVeMDVHzsxJyl8VgHaD4?rs=1&pid=ImgDetMain"
           alt="Qiziqarli faktlar"
           className="hero-image"
         />
         <ul>
-          <li>Bengt Holmström 1949-yil 18-aprelda Helsinkidagi shahar, Finlandiya tug‘ilgan .</li>
-          <h4>Ta'lim:</h4>
-          <li>Helsinkidagi shahar universiteti (matematika bakalavri) <br />
-            Stanford universiteti (operatsion tadqiqotlar magistri)<br />
-            Stenford universiteti (PhD, 1978-yil, biznes boshqaruv nazariyasi bo‘yicha)</li>
-          <h4>Ish joylari:</h4>
+          {/* <li>Asosiy fondlarning eskirish jarayoni va ularni modernizatsiya qilish</li> */}
+          <h4>Asosiy fondlarning eskirish jarayoni va ularni modernizatsiya qilish</h4>
+          <li>Jismoniy eskirish – ishlab chiqarish vositalarining texnik jihatdan yaroqsiz holga kelishi.<br />
+            Ma’naviy eskirish – texnologik o‘zgarishlar sababli ishlab chiqarish vositalarining qadrsizlanishi.<br />
+            Modernizatsiya qilish – yangi texnologiyalar joriy etish orqali ishlab chiqarish vositalarining samaradorligini oshirish.</li>
+          <h4>Asosiy fondlarning samaradorligini oshirish usullari:</h4>
           <li>
-            Yale universiteti, menejment fakulteti professori <br />
-            Massachusetts texnologiya instituti (MIT), iqtisodiyot bo‘yicha professor <br />
+            Texnik xizmat ko‘rsatish – ishlab chiqarish vositalarining muntazam ta’miri va yangilanishi. <br />
+            Avtomatlashtirish va raqamli texnologiyalar – ishlab chiqarish jarayonlarini optimallashtirish. <br />
+            Yashil texnologiyalar – ekologik xavfsiz ishlab chiqarish tizimlarini rivojlantirish.
           </li>
         </ul>
       </div>

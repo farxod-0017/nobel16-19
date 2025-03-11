@@ -99,6 +99,7 @@ footer {
 .home_main {
   position: relative;
   padding: 20px 0px;
+  background: linear-gradient(45deg, blue, yellow, green);
 }
 .back_video {
   position: absolute;
@@ -118,6 +119,7 @@ footer {
   background-color: rgba(0, 0, 255, 0.694);
   padding: 6px 12px;
   color: white;
+  font-size: 24px;
 }
 .fly_full {
   transform: translateX(2000px);
